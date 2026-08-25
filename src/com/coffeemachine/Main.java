@@ -6,7 +6,7 @@ import com.coffeemachine.service.CoffeMachine;
 
 public class Main {
     static void main(String[] args) {
-        Inventory inventory = new Inventory(100,100,30);
+        Inventory inventory = new Inventory(1000,1000,300);
         CoffeMachine machine = new CoffeMachine(inventory);
 
         Beverage espresso = new Espresso();
